@@ -1,11 +1,12 @@
 repo_name: bob-wise0/cpython
-report_id: bb2664908d6c41a9c52dbbb0b036f47f
+report_id: 3e7cdd3cf67a3ac6af439da92cc211b2
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-08T21:12:42+00:00'
+timestamp: '2024-03-28T08:40:44+00:00'
 requested_by: hauntsaninja
 provider: github
 branch: main
-detected_tools_count: 15
+detected_tools_count: 16
 tools:
 - name: Assembly Language
   description: A low-level programming language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4934/default_71f18bbdc61fb88cefb66415bb55dc6f1e60e5ec.png
+  detection_source_url: https://github.com/bob-wise0/cpython
   detection_source: Repo Metadata
 - name: C lang
   description: One of the most widely used programming languages of all time
@@ -24,6 +26,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/bob-wise0/cpython
   detection_source: Repo Metadata
 - name: C++
   description: Has imperative, object-oriented and generic programming features, while
@@ -34,6 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/bob-wise0/cpython
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -43,6 +47,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/bob-wise0/cpython
   detection_source: Repo Metadata
 - name: Common Lisp
   description: The modern, multi-paradigm, high-performance, compiled, ANSI-standardized
@@ -53,6 +58,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1211/default_a57767c64f791d191bf835a28c88885a7e593748.png
+  detection_source_url: https://github.com/bob-wise0/cpython
   detection_source: Repo Metadata
 - name: Objective-C
   description: The primary programming language you use when writing software for
@@ -63,6 +69,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/bob-wise0/cpython
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -73,6 +80,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/bob-wise0/cpython
   detection_source: Repo Metadata
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -83,6 +91,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/bob-wise0/cpython
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -92,6 +101,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/bob-wise0/cpython
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -101,7 +111,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/stale.yml"
+  detection_source_url: https://github.com/bob-wise0/cpython/blob/main/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-12-10 23:46:49.000000000 Z
 - name: Istio
   description: Open platform to connect, manage, and secure microservices, by Google,
     IBM, and Lyft
@@ -112,7 +125,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Microservices Tools
   image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
-  detection_source: ".github/workflows/build.yml"
+  detection_source_url: https://github.com/bob-wise0/cpython/blob/main/.azure-pipelines/prebuild-checks.yml
+  detection_source: ".azure-pipelines/prebuild-checks.yml"
+  last_updated_by: Steve Dower
+  last_updated_on: 2018-09-24 11:44:50.000000000 Z
 - name: PowerShell
   description: A task automation and configuration management framework
   website_url: https://docs.microsoft.com/en-us/powershell/
@@ -121,7 +137,21 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/bob-wise0/cpython
   detection_source: Repo Metadata
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/bob-wise0/cpython/blob/main/Doc/requirements.txt
+  detection_source: Doc/requirements.txt
+  last_updated_by: Julien Palard
+  last_updated_on: 2022-02-10 07:59:04.000000000 Z
 - name: XSLT
   description: The official Twitter account for the sum of all knowledge, Wikipedia.
     Overseen by @jeffelder.
@@ -129,10 +159,11 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/bob-wise0/cpython
   detection_source: Repo Metadata
 - name: memory-profiler
   description: A module for monitoring memory usage of a python program
-  package_url: https://pypi.org/memory-profiler
+  package_url: https://pypi.org/project/memory-profiler
   version: 0.57.0
   license: BSD-3-Clause
   open_source: true
@@ -140,11 +171,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
-  detection_source_url: Tools/peg_generator/requirements.pip
+  detection_source_url: https://github.com/bob-wise0/cpython/blob/main/Tools/peg_generator/requirements.pip
   detection_source: Tools/peg_generator/requirements.pip
+  last_updated_by: Pablo Galindo
+  last_updated_on: 2020-04-22 22:29:27.000000000 Z
 - name: psutil
   description: Cross-platform lib for process and system monitoring in Python
-  package_url: https://pypi.org/psutil
+  package_url: https://pypi.org/project/psutil
   version: 5.7.0
   license: BSD-3-Clause
   open_source: true
@@ -152,5 +185,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
-  detection_source_url: Tools/peg_generator/requirements.pip
+  detection_source_url: https://github.com/bob-wise0/cpython/blob/main/Tools/peg_generator/requirements.pip
   detection_source: Tools/peg_generator/requirements.pip
+  last_updated_by: Pablo Galindo
+  last_updated_on: 2020-04-22 22:29:27.000000000 Z
